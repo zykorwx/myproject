@@ -14,6 +14,8 @@ urlpatterns = patterns('',
 
 urlpatterns = patterns('myproject.views',
     url(r'^$', 'index'),
+    url(r'^sse$', 'sse'),
+    url(r'^envia$', 'envia'),
 )
 
 
